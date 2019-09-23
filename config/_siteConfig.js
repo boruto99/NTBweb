@@ -60,7 +60,7 @@ export default {
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
+    loadingStrategy: 'lazy', // Options: onload, lazy, button
     siteShortName: 'entebe' 
   },
 
