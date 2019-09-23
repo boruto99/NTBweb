@@ -42,7 +42,7 @@ export default {
     }
   ],
   hero: {
-    theme: 'mist' // options: mist, light, dark
+    theme: 'light' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -60,7 +60,7 @@ export default {
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'lazy', // Options: onload, lazy, button
+    loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'entebe' 
   },
 
