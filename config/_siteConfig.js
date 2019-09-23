@@ -61,7 +61,7 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'lazy', // Options: onload, lazy, button
-    siteShortName: 'entebe' // 'blog-danielkelly-io'
+    siteShortName: 'entebe' 
   },
 
   // Newsletter Subscribe
