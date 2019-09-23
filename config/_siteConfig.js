@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'NTB WEB ID',
+  tagline: 'Do our Best for the Right Thing.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -31,18 +31,18 @@ export default {
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
+      name: 'Bikin Website Ngebut',
+      link: 'https://fox.web.id',
       target: '_blank'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
+      name: 'Blog',
+      link: 'https://ntb.web.id/posts/',
       target: '_blank'
     }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'mist' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -60,8 +60,8 @@ export default {
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    loadingStrategy: 'lazy', // Options: onload, lazy, button
+    siteShortName: 'entebe' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
@@ -74,7 +74,7 @@ export default {
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://gmail.us4.list-manage.com/subscribe/post?u=c4e48bd317c3222c4556de5a9&amp;id=8fbc476e91'
     },
     custom: {
       on: false,
